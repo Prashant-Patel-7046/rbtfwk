@@ -10,9 +10,9 @@ Library  Collections
 Library  String
 
 *** Variables ***
-${Table_Row_Locator} =    //*[@id="npac-error-message-box-table"]/tbody[2]/tr
-${Table_Col_Locator} =    //*[@id="npac-error-message-box-table"]/tbody[2]/tr[1]/td
-${Table_Locator} =        //*[@id="npac-error-message-box-table"]
+${Table_Row_Locator} =    //*[@id="error-message-box-table"]/tbody[2]/tr
+${Table_Col_Locator} =    //*[@id="error-message-box-table"]/tbody[2]/tr[1]/td
+${Table_Locator} =        //*[@id="error-message-box-table"]
 
 *** Keywords ***
 Get All Row And Column Values Of A Html Table
